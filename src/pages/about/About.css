@@ -1,5 +1,5 @@
 .About {
-    height: 100vh;
+    min-height: 100vh;
     background-color: #011627;
     color: #607B96;
     display: flex;

@@ -1,5 +1,5 @@
 .Contact {
-  height: 100vh;
+  min-height: 100vh;
   background-color: #011627;
   color: #607b96;
   display: flex;
