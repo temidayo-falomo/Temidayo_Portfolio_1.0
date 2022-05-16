@@ -14,7 +14,10 @@ function Navbar() {
           </div>
 
           <ul className="nav-links flex">
-            <NavLink to="/home" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>
+            <NavLink
+              to="/"
+              className={({ isActive }) => (isActive ? "active" : "inactive")}
+            >
               <li>_hello</li>
             </NavLink>
             <NavLink to="/about">
@@ -27,7 +30,10 @@ function Navbar() {
         </div>
 
         <ul className="nav-contact">
-          <NavLink to="/contact-me" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>
+          <NavLink
+            to="/contact-me"
+            className={({ isActive }) => (isActive ? "active" : "inactive")}
+          >
             <li>_contact-me</li>
           </NavLink>
         </ul>
