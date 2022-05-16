@@ -1,0 +1,86 @@
+.game {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1%;
+  width: 520px;
+  background-color: #144a4e;
+  border-radius: 10px;
+  position: relative;
+}
+
+.canv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 480px;
+  z-index: 111;
+}
+
+canvas {
+  border-radius: 10px;
+}
+
+.control {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1%;
+  margin-left: 20px;
+}
+
+.control h2 {
+  color: aqua;
+  font-size: 2rem;
+}
+
+.control button {
+  background-color: #fea55f;
+  border: none;
+  padding: 8px;
+  border-radius: 10px;
+  width: 90%;
+  margin: 0 auto;
+  cursor: pointer;
+  align-self: center;
+}
+
+.control button:hover {
+  background-color: #e99b60;
+}
+
+.gradients {
+  position: absolute;
+  z-index: 1;
+  width: 250%;
+}
+
+/* @media (max-width: 560px) {
+  .game {
+    margin: 20px;
+    width: 70%;
+    padding: 5% 0;
+  }
+  .canv {
+    flex-direction: column;
+  }
+
+  .control {
+    margin: 0;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  canvas {
+    width: 80%;
+  }
+
+  .instructions {
+    width: 50%;
+    margin: 0 auto;
+  }
+} */

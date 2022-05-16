@@ -1,0 +1,9 @@
+.Contact {
+  height: 100vh;
+  background-color: #011627;
+  color: #607b96;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}

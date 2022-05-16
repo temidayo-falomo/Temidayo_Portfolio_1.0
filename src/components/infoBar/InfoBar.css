@@ -1,0 +1,61 @@
+.infobar {
+  width: 100%;
+  border: 1px #1e2d3d solid;
+  display: flex;
+  gap: 2rem;
+  height: 60px;
+  color: #5565e8;
+  margin-top: 0.5rem;
+  overflow-x: auto;
+  position: relative;
+}
+
+.infobar::-webkit-scrollbar {
+  display: none;
+}
+
+.info-bar-left {
+  border: #1e2d3d solid 1px;
+  width: 300px;
+  min-width: 200px;
+  display: flex;
+  align-items: center;
+  padding: 1%;
+}
+
+.info-bar-left h2 {
+    width: 100%;
+}
+
+.info-bar-content ul {
+  display: flex;
+  gap: 1rem;
+  height: 100%;
+  align-items: center;
+}
+
+.info-bar-content ul li {
+  border: #1e2d3d solid 1px;
+  height: 100%;
+  padding: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100px;
+  cursor: -webkit-grab;
+}
+
+.info-bar-content ul li:nth-of-type(4) {
+  width: 150px;
+}
+
+.scroll {
+    font-size: 2rem;
+    align-self: center;
+    justify-self: center;
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+    color: #fff;
+}
