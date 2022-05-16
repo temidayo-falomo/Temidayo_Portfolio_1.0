@@ -1,11 +1,9 @@
 .contact-landing {
   display: grid;
-  height: 100%;
-  display: grid;
-  grid-template-columns: 320px 800px auto;
+  height: 100% !important;
+  grid-template-columns: 300px 800px auto;
   overflow: auto;
-  height: 100%;
-  margin-top: 0.5rem;
+  margin: 0.5rem 0;
 }
 
 .contact-left {
@@ -32,6 +30,7 @@
 
 .contact-right img {
     width: 70%;
+    height: 700px;
     min-width: 300px;
 }
 
@@ -66,9 +65,17 @@
     flex-wrap: wrap;
   }
 
+  .contact-landing .about-contact {
+    margin: 0;
+  }
+
   .contact-middle {
     width: 100%;
     flex: 1;
+  }
+
+  .contact-right img {
+    height: 100%;
   }
 }
 

@@ -1,10 +1,8 @@
 .about-landing {
   display: grid;
   height: 100%;
-  display: grid;
   grid-template-columns: 300px 700px auto;
   overflow: auto;
-  height: 100%;
   margin: .5rem 0;
 }
 
