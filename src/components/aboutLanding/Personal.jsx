@@ -5,8 +5,9 @@ function Personal() {
     <article className="personal">
       <h2>Personal</h2>
       <p>
-        /* Personal stuff(Work in progress...🛠) */
+        /* (Work in progress...🛠) */
       </p>
+      <p>PS: My YT channel is starting soon!</p>
     </article>
   );
 }

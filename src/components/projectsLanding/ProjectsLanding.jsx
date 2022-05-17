@@ -18,7 +18,7 @@ function ProjectsLanding() {
           })}
         </ul>
       </div>
-
+      
       <div className="projects-right">
         {projectData.map((data)=> {
           return <ProjectCard key={data.id} data={data}/>
