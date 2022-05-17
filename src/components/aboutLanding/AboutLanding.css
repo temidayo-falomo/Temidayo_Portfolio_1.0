@@ -1,6 +1,7 @@
 .about-landing {
   display: grid;
   height: 100%;
+  min-height: 700px;
   grid-template-columns: 300px 700px auto;
   overflow: auto;
   margin: .5rem 0;
@@ -9,6 +10,8 @@
 .about-left {
   border: 1px #1e2d3d solid;
   padding: 5%;
+  display: flex;
+  flex-direction: column;
 }
 
 .about-left ul {
@@ -25,6 +28,10 @@
   cursor: pointer;
 }
 
+.about-left ul li:hover {
+  color: #43d9ad;
+}
+
 .folder {
   color: #43d9ad;
 }
@@ -32,12 +39,13 @@
 .about-middle {
   border: 1px #1e2d3d solid;
   padding: 3% 8%;
-  padding-left: 12%;
+  padding-left: 9%;
   line-height: 2rem;
 }
 
 .about-middle h2 {
   margin-bottom: .5rem;
+  color: #43d9ad;
 }
 
 .about-right {
@@ -96,14 +104,29 @@
   .about-landing {
     display: flex;
     flex-direction: column;
+    min-height: 100%;
+  }
+
+  /****ReUse con ****/
+
+  .about-landing .about-contact {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+  /****/
+
+  .about-left {
+    flex-direction: column-reverse;
+    gap: 1.5rem;
   }
 
   .about-middle {
-    /* min-height: 400px; */
     justify-content: center;
     align-items: center;
     display: flex;
   }
+
   .about-right {
     margin: 0;
     padding: 4% 0;

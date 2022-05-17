@@ -59,7 +59,7 @@
   color: #43d9ad;
 }
 
-.landing-text .bottom-text div span:nth-of-type(4) {
+.landing-text .bottom-text div a {
   color: #e99287;
 }
 
@@ -196,7 +196,7 @@
     color: #43d9ad;
   }
   
-  .mobl div span:nth-of-type(4) {
+  .mobl div a {
     color: #e99287;
   }
 }

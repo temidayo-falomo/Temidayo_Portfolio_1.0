@@ -12,7 +12,7 @@ function Landing() {
           <h1>Temidayo Falomo</h1>
           <h3>
             <FaGreaterThan />
-             Front-end Developer
+            Front-end Developer
           </h3>
         </div>
 
@@ -23,7 +23,13 @@ function Landing() {
             <span>const</span>
             <span>githubLink</span>
             <span>=</span>
-            <span style={{cursor:'copy'}}>“https://github.com/example/url”</span>
+            <a
+              href="https://bit.ly/3Ln6weK"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              “https://bit.ly/3Ln6weK”
+            </a>
           </div>
         </div>
 
@@ -32,10 +38,9 @@ function Landing() {
           <div>
             {" "}
             <span>const </span>
-            
             <span> githubLink</span>
             <span>=</span>
-            <span>“https://github.com/example/url”</span>
+            <a href="https://github.com/temidayo-falomo">“https://github.com/temidayo-falomo”</a>
           </div>
         </div>
       </div>
