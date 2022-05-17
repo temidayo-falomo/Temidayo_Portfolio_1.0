@@ -1,7 +1,6 @@
 import React from "react";
-import {AiOutlineGithub} from 'react-icons/ai'
 
-function ProductCard({data}) {
+function ProjectCard({data}) {
   return (
     <a className="product-card" href={data.link}>
       <div className="card-top">
@@ -17,4 +16,4 @@ function ProductCard({data}) {
   );
 }
 
-export default ProductCard;
+export default ProjectCard;

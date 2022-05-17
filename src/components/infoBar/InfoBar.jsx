@@ -9,7 +9,7 @@ function InfoBar() {
   return (
     <div className="infobar">
       <div className="info-bar-left">
-        <h2>Core Skills</h2>
+        <h2>Core Skills:</h2>
       </div>
       <div className="info-bar-content">
         <ul>

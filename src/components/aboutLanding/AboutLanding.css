@@ -95,6 +95,12 @@
   justify-content: center;
 }
 
+.interests {
+  min-width: 300px;
+}
+
+/****/
+
 .education img {
   max-width: 250px;
   margin-top: 1rem;

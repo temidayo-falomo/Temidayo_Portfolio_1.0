@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
 
 function Personal() {
   return (
-    <div className='personal'>Personal</div>
-  )
+    <article className="personal">
+      <h2>Personal</h2>
+      <p>
+        /* Personal stuff(Work in progress...🛠) */
+      </p>
+    </article>
+  );
 }
 
-export default Personal
+export default Personal;
