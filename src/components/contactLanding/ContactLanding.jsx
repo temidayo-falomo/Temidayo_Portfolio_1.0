@@ -15,7 +15,7 @@ function ContactLanding() {
         <ContactUs />
       </div>
       <div className="contact-right">
-        <h1 style={{fontSize: '1.5rem', color: '#7a73f7'}}>Available For Hire!</h1>
+        <h1 style={{fontSize: '1.5rem', color: '#6B63FF'}}>Available For Hire!</h1>
         <img src="./assets/undraw_remotely_-2-j6y.svg" alt="" />
       </div>
     </div>

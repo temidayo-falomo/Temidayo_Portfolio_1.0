@@ -30,9 +30,9 @@ export const projectData = [
   },
   {
     id: "5",
-    name: "Saturn(Live)",
+    name: "SaturnFi(Live)",
     img: "./assets/Projects Screenshots/saturn-fi.jpg",
-    desc: "Did a freelance project for a Blockchain startup founder that i know mutually.",
+    desc: "Did a freelance project on a contract for a Blockchain startup.",
     link: "https://saturn-fi-temidayo.netlify.app/",
   },
   {

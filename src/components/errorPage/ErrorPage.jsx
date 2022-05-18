@@ -5,7 +5,7 @@ function ErrorPage() {
   return (
     <div className='error-page'>
         <h1>Oops! It looks Like This Link is Unavailable!</h1>
-        <a href='/home'><button>Back To Home Page</button></a>
+        <a href='/'><button>Back To Home Page</button></a>
     </div>
   )
 }
