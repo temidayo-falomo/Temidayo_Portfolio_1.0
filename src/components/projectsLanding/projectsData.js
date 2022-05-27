@@ -18,7 +18,7 @@ export const projectData = [
     id: "3",
     name: "Nft Page",
     img: "./assets/Projects Screenshots/nft-landing.jpg",
-    desc: "I Had fun testing out the Dark mode functionality in this landing-page project and adding a few ui surprises of my own.",
+    desc: "I Had fun testing out the Dark mode functionality using styled-components in this nft landing-page project.",
     link: "https://nft-landing-temidayo.netlify.app/",
   },
   {

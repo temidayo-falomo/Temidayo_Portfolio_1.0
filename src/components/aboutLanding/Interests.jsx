@@ -7,12 +7,12 @@ function Interests() {
       {/* <p> A list of the technologies & stacks i hope to waddle into in the nearest future: </p> */}
       <ol>
         <li>Node & Express Js</li>
-        <li>MongoDB</li>
-        <li>Blender</li>
         <li>Three Js</li>
         <li>UX Design</li>
         <li>Unity</li>
+        <li>Blender</li>
         <li>Web 3</li>
+        <li>C++</li>
       </ol>
     </div>
   );
