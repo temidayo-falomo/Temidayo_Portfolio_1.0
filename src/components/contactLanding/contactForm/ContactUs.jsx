@@ -78,7 +78,7 @@ export const ContactUs = () => {
           type="name"
           name="message"
           className="form-input"
-          placeholder="Hey! Just checked your website and it looks awesome! Also, I checked your articled on Medium. Lerned a few nice tips. Thanks! |"
+          placeholder="Hey! Just checked your website and it looks awesome! Also, I checked your article on Medium. Lerned a few nice tips. Thanks! |"
           onChange={(e) => setMessage(e.target.value)}
         />
       </div>
