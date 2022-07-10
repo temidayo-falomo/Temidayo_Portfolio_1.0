@@ -12,7 +12,7 @@ function Interests() {
         <li>Unity</li>
         <li>Blender</li>
         <li>Web 3</li>
-        <li>C++</li>
+        <li>Java</li>
       </ol>
     </div>
   );

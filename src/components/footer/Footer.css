@@ -43,7 +43,6 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 1%;
-  color: #607b96;
 }
 
 .footer-right a {
@@ -51,7 +50,7 @@ footer {
   align-items: center;
   text-align: center;
   gap: 0.5rem;
-  color: #607b96;
+  color: #fff;
 }
 
 @media (max-width: 420px) {

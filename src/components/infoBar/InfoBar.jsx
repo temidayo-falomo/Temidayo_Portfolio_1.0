@@ -3,7 +3,7 @@ import "./InfoBar.css";
 import { FaReact } from "react-icons/fa";
 import { AiOutlineHtml5 } from "react-icons/ai";
 import { IoLogoCss3 } from "react-icons/io";
-import { SiJavascript } from "react-icons/si";
+import { SiFirebase, SiJavascript } from "react-icons/si";
 
 function InfoBar() {
   return (
@@ -28,6 +28,10 @@ function InfoBar() {
           <li>
             <SiJavascript />
             Vanilla Js
+          </li>
+          <li>
+            <SiFirebase />
+            Firebase
           </li>
         </ul>
       </div>
