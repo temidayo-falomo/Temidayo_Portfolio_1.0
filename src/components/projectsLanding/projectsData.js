@@ -11,7 +11,7 @@ export const projectData = [
     name: "Bithub",
     img: "./assets/Projects Screenshots/mini-github.jpg",
     desc: "I Had fun testing out the Dark mode functionality using styled-components in this nft landing-page project.",
-    link: "https://nft-landing-temidayo.netlify.app/",
+    link: "https://bit-hub.netlify.app/",
   },
   {
     id: "3",
