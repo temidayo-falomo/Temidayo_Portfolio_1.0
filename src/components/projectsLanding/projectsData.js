@@ -4,7 +4,7 @@ export const projectData = [
     name: "Booksy",
     img: "./assets/Projects Screenshots/booksy.jpg",
     desc: "I Built Booksy as a special personal side-project, this site contains fulstack / crud / authentication functionalities using a BAAS(Firebase).",
-    link: "hhttps://booksyy.netlify.app",
+    link: "https://booksyy.netlify.app",
   },
   {
     id: "2",
