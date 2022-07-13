@@ -49,20 +49,12 @@ export const projectData = [
     desc: "My portfolio website,I used Vanilla CSS all-through so i could easily have maximum control over my layouts.",
     link: "https://temidayo-falomo.netlify.app/",
   },
-  // {
-  //   id: "8",
-  //   name: "Manage Page",
-  //   img: "./assets/Projects Screenshots/manage-landing.jpg",
-  //   desc: "I built this intermediate frontendmentor.io challenge completely using ReactJs(i'm the hugest fan, seriously).",
-  //   link: "https://manage-page-temidayo.netlify.app/",
-  //   env: "FaReact",
-  // },
   {
     id: "8",
-    name: "Nft Page",
-    img: "./assets/Projects Screenshots/nft-landing.jpg",
-    desc: "I Had fun testing out the Dark mode functionality using styled-components in this nft landing-page project.",
-    link: "https://nft-landing-temidayo.netlify.app/",
+    name: "Panda Nft",
+    img: "./assets/Projects Screenshots/panda-nft.jpg",
+    desc: "I built a NFT landing page using mainly inbuilt css flexbox-properties for Responsiveness.",
+    link: "https://panda-nfts.netlify.app/",
   },
   {
     id: "9",
@@ -106,5 +98,8 @@ export const projectList = [
   },
   {
     name: "Coin Fi",
+  },
+  {
+    name: "Panda NFTs",
   },
 ];
