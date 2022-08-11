@@ -12,13 +12,13 @@ function Landing() {
           <h1>Temidayo Falomo</h1>
           <h3>
             <FaGreaterThan />
-            Front-end Developer
+            MERN Stack Developer
           </h3>
         </div>
 
         <div className="bottom-text">
-          <p>// wanna play a game?</p>
-          <p>// you can also see it on my github page</p>
+          <p>{"// wanna play a game?"}</p>
+          <p>{"// you can also see it on my github page"}</p>
           <div style={{ lineHeight: "30px" }}>
             <span>const</span>
             <span>githubLink</span>
@@ -40,7 +40,9 @@ function Landing() {
             <span>const </span>
             <span> githubLink</span>
             <span>=</span>
-            <a href="https://github.com/temidayo-falomo">“https://github.com/temidayo-falomo”</a>
+            <a href="https://github.com/temidayo-falomo">
+              “https://github.com/temidayo-falomo”
+            </a>
           </div>
         </div>
       </div>

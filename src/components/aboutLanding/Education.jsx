@@ -1,14 +1,37 @@
 import React from "react";
+import { AiOutlineCalendar } from "react-icons/ai";
 
 function Education() {
   return (
     <>
       <h2>_Education</h2>
       <div className="education">
-      <img src="./assets/github-student.svg" alt="" />
-        <img src="./assets/fe-dev.svg" alt="" />
-        <img src="./assets/met-mat.svg" alt="" />
-        <img src="./assets/cs50.svg" alt="" />
+        <div className="education-card">
+          <h2>Responsive Web Design</h2>
+          <p>FreeCodeCamp</p>
+          <span>
+            <AiOutlineCalendar />
+            2021-2021
+          </span>
+        </div>
+
+        <div className="education-card">
+          <h2>Github Student</h2>
+          <p>Github</p>
+          <span>
+            <AiOutlineCalendar />
+            2021-Present
+          </span>
+        </div>
+
+        <div className="education-card">
+          <h2>Metallurgical Engineering</h2>
+          <p>University of Lagos</p>
+          <span>
+            <AiOutlineCalendar />
+            2019-Present
+          </span>
+        </div>
       </div>
     </>
   );

@@ -34,6 +34,7 @@
 
 .folder {
   color: #43d9ad;
+  fill: #43d9ad;
 }
 
 .about-middle {
@@ -45,7 +46,7 @@
 
 .about-middle h2 {
   margin-bottom: .5rem;
-  color: #43d9ad;
+  color: #5466E8;
 }
 
 .about-right {
@@ -90,10 +91,24 @@
   gap: 1rem;
   flex-wrap: wrap;
   width: 100%;
-  justify-content: space-between;
-  align-items: center;
-  justify-content: center;
   
+}
+
+.education-card {
+  border: 2px #35475b solid;
+  padding: 15px;
+  border-radius: 10px;
+  width: 260px;
+}
+
+.education-card span {
+  display: flex;
+  align-items: center;
+  gap: .2rem;
+}
+
+.education-card h2 {
+  color: #9fb5ca;
 }
 
 .interests {
@@ -101,11 +116,6 @@
 }
 
 /****/
-
-.education img {
-  max-width: 250px;
-  margin-top: 1rem;
-}
 
 @media (max-width: 1180px) {
   .about-landing {

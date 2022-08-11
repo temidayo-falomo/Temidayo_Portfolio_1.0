@@ -4,15 +4,16 @@ function Interests() {
   return (
     <div className="interests">
       <h2>_Interests</h2>
-      {/* <p> A list of the technologies & stacks i hope to waddle into in the nearest future: </p> */}
+      <p> A list of the technologies & languages i hope to waddle into in the nearest future: </p>
       <ol>
-        <li>Node & Express Js</li>
+        <li>Python</li>
+        <li>Graph Ql</li>
         <li>Three Js</li>
         <li>UX Design</li>
+        <li>Java</li>
         <li>Unity</li>
         <li>Blender</li>
         <li>Web 3</li>
-        <li>Java</li>
       </ol>
     </div>
   );

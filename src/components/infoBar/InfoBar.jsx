@@ -1,9 +1,14 @@
 import React from "react";
 import "./InfoBar.css";
-import { FaReact } from "react-icons/fa";
+import { FaNode, FaReact } from "react-icons/fa";
 import { AiOutlineHtml5 } from "react-icons/ai";
 import { IoLogoCss3 } from "react-icons/io";
-import { SiFirebase, SiJavascript } from "react-icons/si";
+import {
+  SiFirebase,
+  SiJavascript,
+  SiMaterialui,
+  SiMongodb,
+} from "react-icons/si";
 
 function InfoBar() {
   return (
@@ -18,6 +23,18 @@ function InfoBar() {
             ReactJs
           </li>
           <li>
+            <SiMongodb />
+            MongoDb
+          </li>
+          <li>
+            <h2>E</h2>
+            Express
+          </li>
+          <li>
+            <FaNode />
+            NodeJs
+          </li>
+          <li>
             <AiOutlineHtml5 />
             Html5
           </li>
@@ -27,11 +44,15 @@ function InfoBar() {
           </li>
           <li>
             <SiJavascript />
-            Vanilla Js
+            VanillaJs
           </li>
           <li>
             <SiFirebase />
             Firebase
+          </li>
+          <li>
+            <SiMaterialui />
+            Material
           </li>
         </ul>
       </div>

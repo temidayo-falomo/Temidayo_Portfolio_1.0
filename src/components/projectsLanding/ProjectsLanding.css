@@ -24,9 +24,6 @@
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  justify-content: space-between;
-  align-items: center;
-  justify-content: center;
   padding: 2%;
   gap: 2rem;
   flex-wrap: wrap;

@@ -7,7 +7,7 @@ function Experience() {
       <p>
         I have worked with several freelance projects, as well as personal
         projects that i've built from scratch with technologies like ReactJs,
-        TailwindCss, Material Ui, and several Javascript & ReactJs Libraries.
+        MongoDb, Firebase, HTML5/CSS3 & several useful/giant technology stacks.
       </p>
     </article>
   );

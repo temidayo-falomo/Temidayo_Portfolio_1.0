@@ -32,7 +32,7 @@ nav {
 }
 
 .nav-links li {
-  color: #607b96;
+  color: #a7bfd5;
   border: 1px #1e2d3d solid;
   height: 100%;
   display: flex;
@@ -47,7 +47,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* color: #607b96; */
+  /* color: #a7bfd5; */
   width: 150px;
 }
 
@@ -65,7 +65,7 @@ nav {
 }
 
 .inactive {
-  color: #607b96;
+  color: #a7bfd5;
 }
 
 @media (max-width: 900px) {

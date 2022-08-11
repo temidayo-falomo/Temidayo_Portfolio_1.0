@@ -10,7 +10,7 @@ export const projectData = [
     id: "2",
     name: "Bithub",
     img: "./assets/Projects Screenshots/mini-github.jpg",
-    desc: "I Had fun testing out the Dark mode functionality using styled-components in this nft landing-page project.",
+    desc: "I built Github, but as Bithub using Github's official REST Api to retrive users' info.",
     link: "https://bit-hub.netlify.app/",
   },
   {
@@ -24,7 +24,7 @@ export const projectData = [
     id: "4",
     name: "Weather App",
     img: "./assets/Projects Screenshots/weather-app.jpg",
-    desc: "Created my First Weather App!!(With ReactJs)Used Axios to fetch the Weather API",
+    desc: "Created my First Weather App!!(With ReactJs)Everybody should have at least one weather app in my opinion.",
     link: "https://what-is-the-weather-proj.netlify.app/",
   },
   {

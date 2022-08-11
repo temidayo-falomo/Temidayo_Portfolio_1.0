@@ -69,6 +69,7 @@ export const ContactUs = () => {
           type="text"
           name="subject"
           className="form-input"
+          placeholder="Nice Work!"
           onChange={(e) => setSubject(e.target.value)}
         />
       </div>
