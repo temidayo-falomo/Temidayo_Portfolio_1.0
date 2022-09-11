@@ -43,6 +43,9 @@ function AboutLanding() {
         <div>{show === "personal" && <Personal />}</div>
       </div>
       <div className="about-right">
+        {/* <div className="about-right-image">
+
+        </div> */}
         <img src="./assets/IMG_20210820_203403_3.jpeg" alt="" />
       </div>
     </div>

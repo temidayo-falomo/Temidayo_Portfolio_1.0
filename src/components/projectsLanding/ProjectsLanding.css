@@ -39,7 +39,7 @@
   overflow: hidden;
   border: 2px #1E2D3D solid;
   cursor: pointer;
-  color: #607b96;
+  color: #6f8aa6;
   transition:  1s ease;
 }
 
@@ -49,15 +49,14 @@
 }
 
 .product-card:hover {
-  background-color: #5565E8;
-  padding: 10px;
   transition: 1s ease;
+  border: 3px #5565E8 solid;
 }
 
-.product-card:hover *, h3 {
+/* .product-card:hover *, h3 {
   border: none !important;
   color: #011221;
-}
+} */
 
 .card-desc {
   padding: 20px;

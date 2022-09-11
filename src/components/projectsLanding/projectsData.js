@@ -1,17 +1,27 @@
 export const projectData = [
   {
+    id: "10",
+    name: "Insttagg",
+    img: "./assets/Projects Screenshots/insttagg.jpg",
+    desc: `A Fullstack re-design of 
+    Instagram, complete with auth, like, share, bookmark, view, crud, 
+    routing e.t.c functionalities`,
+    link: "https://insttagg.herokuapp.com",
+  },
+
+  {
+    id: "2",
+    name: "Bithub",
+    img: "./assets/Projects Screenshots/mini-github.jpg",
+    desc: "I built Github, but as Bithub using Github's official REST Api/localStorage to retrive users' info.",
+    link: "https://bit-hub.netlify.app/",
+  },
+  {
     id: "1",
     name: "Booksy",
     img: "./assets/Projects Screenshots/booksy.jpg",
     desc: "I Built Booksy as a special personal side-project, this site contains fulstack / crud / authentication functionalities using a BAAS(Firebase).",
     link: "https://booksyy.netlify.app",
-  },
-  {
-    id: "2",
-    name: "Bithub",
-    img: "./assets/Projects Screenshots/mini-github.jpg",
-    desc: "I built Github, but as Bithub using Github's official REST Api to retrive users' info.",
-    link: "https://bit-hub.netlify.app/",
   },
   {
     id: "3",
