@@ -19,8 +19,10 @@ export const projectData = [
   {
     id: "1",
     name: "Booksy",
-    img: "./assets/Projects Screenshots/booksy.jpg",
-    desc: "I Built Booksy as a special personal side-project, this site contains fulstack / crud / authentication functionalities using a BAAS(Firebase).",
+    img: "./assets/Projects Screenshots/booksyy.jpg",
+    desc: `I Built Booksy as a special personal side-project, 
+    this site contains fulstack / crud / authentication 
+    functionalities using a BAAS(Firebase).`,
     link: "https://booksyy.netlify.app",
   },
   {
@@ -56,7 +58,9 @@ export const projectData = [
     id: "7",
     name: "My Portfolio",
     img: "./assets/Projects Screenshots/myportfolio.jpg",
-    desc: "My portfolio website,I used Vanilla CSS all-through so i could easily have maximum control over my layouts.",
+    desc: `My portfolio website, 
+    I used Vanilla CSS all-through so
+     i could easily have maximum control over my layouts.`,
     link: "https://temidayo-falomo.netlify.app/",
   },
   {
