@@ -59,7 +59,7 @@ export const projectData = [
   {
     name: "My Portfolio",
     img: "./assets/Projects Screenshots/myportfolio.jpg",
-    desc: `My portfolio website, 
+    desc: `For this.Portfolio website, 
     I used Vanilla CSS all-through so
      i could easily have maximum control over my layouts.`,
     link: "https://temidayo-falomo.netlify.app/",
