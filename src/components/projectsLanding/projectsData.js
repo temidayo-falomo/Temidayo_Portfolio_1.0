@@ -20,7 +20,7 @@ export const projectData = [
     name: "Booksy",
     img: "./assets/Projects Screenshots/booksyy.jpg",
     desc: `I Built Booksy as a special personal side-project, 
-    this site contains fulstack / crud / authentication 
+    this site contains fullstack / crud / authentication 
     functionalities using a BAAS(Firebase).`,
     link: "https://booksyy.netlify.app",
   },
@@ -52,8 +52,8 @@ export const projectData = [
   },
   {
     name: "Tiny Moviez",
-    img: "./assets/Projects Screenshots/tiny-moviez.jpg",
-    desc: "Built an API powered Movie search app using The Movie database.",
+    img: "./assets/Projects Screenshots/tiny-movies.jpg",
+    desc: "I Built an API powered Movie search app using The Movie database.",
     link: "https://tiny-movies-temidayo.netlify.app/",
   },
   {
