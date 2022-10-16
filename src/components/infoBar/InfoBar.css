@@ -4,7 +4,7 @@
   display: flex;
   gap: 2rem;
   height: 60px;
-  color: #5565e8;
+  color: rgb(242, 237, 237);
   margin-top: 0.5rem;
   overflow-x: auto;
   position: relative;
@@ -25,8 +25,8 @@
 
 .info-bar-left {
   border: #1e2d3d solid 1px;
-  width: 300px;
-  min-width: 200px;
+  width: 200px;
+  min-width: 150px;
   display: flex;
   align-items: center;
   padding: 20px;
@@ -53,7 +53,8 @@
   text-align: center;
   min-width: 150px;
   gap: 0.5rem;
-  cursor: -webkit-grab;
+  cursor: pointer;
+  font-weight: 600;
 }
 
 .info-bar-content ul li:nth-of-type(4) {

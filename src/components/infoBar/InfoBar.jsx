@@ -8,13 +8,17 @@ import {
   SiJavascript,
   SiMaterialui,
   SiMongodb,
+  SiNextdotjs,
+  SiStyledcomponents,
+  SiTypescript,
 } from "react-icons/si";
+import { CgFigma } from "react-icons/cg";
 
 function InfoBar() {
   return (
     <div className="infobar">
       <div className="info-bar-left">
-        <h2>Core Skills:</h2>
+        <h2>Skills:</h2>
       </div>
       <div className="info-bar-content">
         <ul>
@@ -23,16 +27,16 @@ function InfoBar() {
             ReactJs
           </li>
           <li>
+            <FaNode />
+            Node
+          </li>
+          <li>
             <SiMongodb />
             MongoDb
           </li>
           <li>
             <h2>E</h2>
             Express
-          </li>
-          <li>
-            <FaNode />
-            NodeJs
           </li>
           <li>
             <AiOutlineHtml5 />
@@ -47,12 +51,28 @@ function InfoBar() {
             VanillaJs
           </li>
           <li>
+            <SiTypescript />
+            TS
+          </li>
+          <li>
             <SiFirebase />
             Firebase
           </li>
           <li>
+            <SiStyledcomponents />
+            Styled
+          </li>
+          <li>
             <SiMaterialui />
             Material
+          </li>
+          <li>
+            <SiNextdotjs />
+            NextJs
+          </li>
+          <li>
+            <CgFigma />
+            Figma
           </li>
         </ul>
       </div>

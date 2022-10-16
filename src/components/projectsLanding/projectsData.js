@@ -2,9 +2,9 @@ export const projectData = [
   {
     name: "Insttagg",
     img: "./assets/Projects Screenshots/insttagg.jpg",
-    desc: `A Fullstack re-design of 
+    desc: `A complete Fullstack re-design of 
     Instagram, complete with auth, like, share, bookmark, view, crud, 
-    routing e.t.c functionalities`,
+    routing e.t.c functionalities. `,
     link: "https://insttagg.herokuapp.com",
   },
 
@@ -12,7 +12,7 @@ export const projectData = [
     name: "WhatsApp Mini",
     img: "./assets/Projects Screenshots/whatsapp.jpg",
     desc: `I built a Fullstack re-design of WhatsApp using the most
-    creative/ effecient solutions i could provide, it performs Realtime Chat, CRUD operations, e.t.c`,
+    creative & effecient solutions i could provide. It performs Realtime Chat, CRUD operations, e.t.c`,
     link: "https://whatsapp-mini.netlify.app",
   },
 
