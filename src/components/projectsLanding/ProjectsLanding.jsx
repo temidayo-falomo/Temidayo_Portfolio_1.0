@@ -20,8 +20,8 @@ function ProjectsLanding() {
       </div>
 
       <div className="projects-right">
-        {projectData.map((data) => {
-          return <ProjectCard key={data.id} data={data} />;
+        {projectData.map((data, index) => {
+          return <ProjectCard key={index} data={data} />;
         })}
       </div>
     </div>

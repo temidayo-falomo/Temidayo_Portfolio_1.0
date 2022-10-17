@@ -25,7 +25,7 @@
 
 .info-bar-left {
   border: #1e2d3d solid 1px;
-  width: 200px;
+  width: 150px;
   min-width: 150px;
   display: flex;
   align-items: center;
@@ -41,6 +41,7 @@
   gap: 1rem;
   height: 100%;
   align-items: center;
+  font-size: 3rem;
 }
 
 .info-bar-content ul li {
@@ -51,7 +52,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  min-width: 150px;
+  /* min-width: 150px; */
   gap: 0.5rem;
   cursor: pointer;
   font-weight: 600;
