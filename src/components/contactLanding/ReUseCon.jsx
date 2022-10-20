@@ -17,9 +17,7 @@ function ReUseCon() {
         <AiFillCaretDown />
         contacts
       </p>
-      <a
-        href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRmTwwkZBXhmdDjkrkVKrbxpsHLMLXnDmmHGVZDqbHvnPtfBhCRXljlhkQXKGRxWjDdBZxV"
-      >
+      <a href="mailto:temmideee@gmail.com">
         <FiMail />
         temmideee@gmail.com
       </a>
