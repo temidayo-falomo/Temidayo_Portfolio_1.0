@@ -26,23 +26,33 @@ export const projectData = [
   },
 
   {
-    name: "Bithub",
-    img: "./assets/Projects Screenshots/mini-github.jpg",
-    desc: "I built Github, but as Bithub using Github's official REST Api/localStorage to retrive users' info.",
-    link: "https://bit-hub.netlify.app/",
+    name: "Where-In-The-World",
+    img: "./assets/Projects Screenshots/where-in.jpg",
+    desc: "A frontendmentor.io challenge I completed In a 24hour sprint.",
+    link: "https://where-in-the-worldd.netlify.app",
   },
-  {
-    name: "Burger-A",
-    img: "./assets/Projects Screenshots/burger-a-proj.png",
-    desc: "A web app that allows users to build their custom Burger & Checkout.",
-    link: "https://burger-a.netlify.app/make-burger",
-  },
+
   {
     name: "Weather App",
     img: "./assets/Projects Screenshots/weather-app.jpg",
     desc: "Created my First Weather App!!(With ReactJs)Everybody should have at least one weather app in my opinion.",
     link: "https://what-is-the-weather-proj.netlify.app/",
   },
+
+  {
+    name: "Burger-A",
+    img: "./assets/Projects Screenshots/burger-a-proj.png",
+    desc: "A web app that allows users to build their custom Burger & Checkout.",
+    link: "https://burger-a.netlify.app/make-burger",
+  },
+
+  {
+    name: "Bithub",
+    img: "./assets/Projects Screenshots/mini-github.jpg",
+    desc: "I built Github, but as Bithub using Github's official REST Api/localStorage to retrive users' info.",
+    link: "https://bit-hub.netlify.app/",
+  },
+
   {
     name: "Coin Fi",
     img: "./assets/Projects Screenshots/coin-fi.jpg",
@@ -71,9 +81,9 @@ export const projectData = [
     link: "https://panda-nfts.netlify.app/",
   },
   {
-    name: "SaturnFi(Live)",
+    name: "SaturnFi(Work Demo)",
     img: "./assets/Projects Screenshots/saturn-fi.jpg",
-    desc: "Did a freelance project on a contract for a Blockchain startup.",
+    desc: "I Did a freelance project on a contract for a Blockchain startup.",
     link: "https://saturn-fi-temidayo.netlify.app/",
   },
 ];
