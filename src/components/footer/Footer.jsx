@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BsTwitter, BsGithub } from "react-icons/bs";
 import { GiBattleAxe } from "react-icons/gi";
 import "./Footer.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Footer() {
+
+  useEffect(() => {
+    Aos.init({
+      duration: 1000,
+    });
+  }, []);
+
   return (
     <footer>
       <div className="footer-left">

@@ -26,15 +26,17 @@
   align-items: center;
   gap: 0.5rem;
   cursor: pointer;
+  color: #fff;
+  fill: #fff;
 }
 
 .about-left ul li:hover {
-  color: #43d9ad;
+  color: #5981f4;
 }
 
-.folder {
-  color: #43d9ad;
-  fill: #43d9ad;
+.folder-active {
+  fill: #5981f4 !important;
+  color: #5981f4 !important;
 }
 
 .about-middle {

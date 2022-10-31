@@ -1,10 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Navbar.css";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Navbar() {
+  
+  useEffect(() => {
+    Aos.init({
+      duration: 1000,
+    });
+  }, []);
+
   return (
-    <nav>
+    <nav data-aos="fade" data-aos-delay="250">
       <div className="nav-container flex">
         <div className="nav-left flex">
           <div className="mobile flex">
@@ -18,13 +27,17 @@ function Navbar() {
               to="/"
               className={({ isActive }) => (isActive ? "active" : "inactive")}
             >
-              <li>_hello</li>
+              <li data-aos="fade-down">_hello</li>
             </NavLink>
             <NavLink to="/about">
-              <li>_about-me</li>
+              <li data-aos="fade-down" data-aos-delay="350">
+                _about-me
+              </li>
             </NavLink>
             <NavLink to="/projects">
-              <li>_projects</li>
+              <li data-aos="fade-down" data-aos-delay="400">
+                _projects
+              </li>
             </NavLink>
           </ul>
         </div>
@@ -34,7 +47,9 @@ function Navbar() {
             to="/contact-me"
             className={({ isActive }) => (isActive ? "active" : "inactive")}
           >
-            <li>_contact-me</li>
+            <li data-aos="fade-down" data-aos-delay="450">
+              _contact-me
+            </li>
           </NavLink>
         </ul>
       </div>

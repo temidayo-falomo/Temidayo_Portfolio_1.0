@@ -9,6 +9,8 @@ import {
   DIRECTIONS,
 } from "./constants";
 import "./Game.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Game = () => {
   const canvasRef = useRef();
@@ -82,12 +84,23 @@ const Game = () => {
     context.fillStyle = "#43D9AD";
     snake.forEach(([x, y]) => context.fillRect(x, y, 0.5, 0.5));
     context.fillStyle = "#43D9AD";
-    context.fillRect(apple[0], apple[1], .8, .8);
+    context.fillRect(apple[0], apple[1], 0.8, 0.8);
   }, [snake, apple, gameOver]);
 
+  useEffect(() => {
+    Aos.init({
+      duration: 1000,
+    });
+  }, []);
+
   return (
-    <div className="game">
-      <div role="button" tabIndex="0" onKeyDown={(e) => moveSnake(e)} className='canv'>
+    <div className="game" data-aos="fade" data-aos-delay="400">
+      <div
+        role="button"
+        tabIndex="0"
+        onKeyDown={(e) => moveSnake(e)}
+        className="canv"
+      >
         <canvas
           style={{ border: "1px solid black", background: "#011627" }}
           ref={canvasRef}
@@ -95,12 +108,12 @@ const Game = () => {
           height={`${CANVAS_SIZE[1]}px`}
         />
         <div className="control">
-          <img src="./assets/inst.svg" alt="" className="instructions"/>
+          <img src="./assets/inst.svg" alt="" className="instructions" />
           <h2>{gameOver && <div>GAME OVER!</div>}</h2>
           <button onClick={startGame}>Start Game</button>
         </div>
       </div>
-      <img src="./assets/Background Blurs.svg" alt="" className="gradients"/>
+      <img src="./assets/Background Blurs.svg" alt="" className="gradients" />
     </div>
   );
 };

@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./ProjectsLanding.css";
 import ProjectCard from "./ProjectCard";
 import { projectData, projectList } from "./projectsData";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function ProjectsLanding() {
+  useEffect(() => {
+    Aos.init({
+      duration: 1000,
+    });
+  }, []);
+
   return (
     <div className="projectsLanding">
       <div className="projects-left">
@@ -21,7 +29,11 @@ function ProjectsLanding() {
 
       <div className="projects-right">
         {projectData.map((data, index) => {
-          return <ProjectCard key={index} data={data} />;
+          return (
+            <div key={index} className="product-card" data-aos="fade-up">
+              <ProjectCard data={data} />
+            </div>
+          );
         })}
       </div>
     </div>

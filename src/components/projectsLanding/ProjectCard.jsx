@@ -3,7 +3,7 @@ import React from "react";
 function ProjectCard({ data }) {
   return (
     <a
-      className="product-card"
+     
       href={data.link}
       target="_blank"
       rel="noopener noreferrer"

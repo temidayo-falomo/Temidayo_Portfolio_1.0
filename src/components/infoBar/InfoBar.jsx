@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./InfoBar.css";
 import { FaNode, FaReact } from "react-icons/fa";
 import { AiOutlineHtml5 } from "react-icons/ai";
@@ -13,8 +13,16 @@ import {
   SiTypescript,
 } from "react-icons/si";
 import { CgFigma } from "react-icons/cg";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function InfoBar() {
+  useEffect(() => {
+    Aos.init({
+      duration: 1000,
+    });
+  }, []);
+
   return (
     <div className="infobar">
       <div className="info-bar-left">

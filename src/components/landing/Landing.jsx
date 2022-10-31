@@ -1,22 +1,34 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Landing.css";
 import { FaGreaterThan } from "react-icons/fa";
 import Game from "../game/Game";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Landing() {
+  useEffect(() => {
+    Aos.init({
+      duration: 1000,
+    });
+  }, []);
+
   return (
-    <div className="landing">
+    <div className="landing" data-aos="fade" data-aos-delay="250">
       <div className="landing-text">
         <div className="top-texts">
-          <p>Hi all, i'm</p>
-          <h1>Temidayo Falomo</h1>
-          <h3>
+          <p data-aos="fade" data-aos-delay="600">
+            Hi all, i'm
+          </p>
+          <h1 data-aos="fade" data-aos-delay="650">
+            Temidayo Falomo
+          </h1>
+          <h3 data-aos="fade" data-aos-delay="700">
             <FaGreaterThan />
             MERN Stack Developer
           </h3>
         </div>
 
-        <div className="bottom-text">
+        <div className="bottom-text" data-aos="fade" data-aos-delay="750">
           <p>{"// wanna play a game?"}</p>
           <p>{"// you can also see it on my github page"}</p>
           <div style={{ lineHeight: "30px" }}>
@@ -34,7 +46,7 @@ function Landing() {
         </div>
 
         <div className="mobl">
-          <p>// find my profile on Github:</p>
+          <p>{`//`} find my profile on Github:</p>
           <div>
             {" "}
             <span>const </span>

@@ -22,7 +22,8 @@ nav {
 }
 
 .logo {
-  border: 2px #1e2d3d solid;
+  border: 1px #1e2d3d solid;
+  border-bottom: none;
   width: 300px;
   height: 100%;
   display: flex;
@@ -34,6 +35,7 @@ nav {
 .nav-links li {
   color: #a7bfd5;
   border: 1px #1e2d3d solid;
+  border-bottom: none;
   height: 100%;
   display: flex;
   align-items: center;

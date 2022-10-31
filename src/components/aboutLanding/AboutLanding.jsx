@@ -11,21 +11,33 @@ import Personal from "./Personal";
 
 function AboutLanding() {
   const AboutStuff = [
-    "bio",
-    "interests",
-    "experience",
-    "education",
-    "personal",
+    "Bio",
+    "Interests",
+    "Experience",
+    "Education",
+    "Personal",
   ];
-  const [show, setShow] = useState("bio");
+  const [show, setShow] = useState("Bio");
+  const [number, setNumber] = useState(0);
+
+  const handleActiveCard = (param) => {
+    setNumber(param);
+  };
 
   return (
     <div className="about-landing">
       <div className="about-left">
-        <ul role="group">
-          {AboutStuff.map((data) => {
+        <ul role="group" data-aos="fade-up">
+          {AboutStuff.map((data, index) => {
             return (
-              <li key={data} onClick={() => setShow(data)}>
+              <li
+                className={`${index === number && "folder-active"}`}
+                key={data}
+                onClick={() => {
+                  setShow(data);
+                  handleActiveCard(index);
+                }}
+              >
                 <VscFolder className="folder" />
                 {data}
               </li>
@@ -36,11 +48,11 @@ function AboutLanding() {
         <ReUseCon />
       </div>
       <div className="about-middle">
-        <div>{show === "bio" && <Bio />}</div>
-        <div>{show === "interests" && <Interests />}</div>
-        <div>{show === "experience" && <Experience />}</div>
-        <div>{show === "education" && <Education />}</div>
-        <div>{show === "personal" && <Personal />}</div>
+        <div>{show === "Bio" && <Bio />}</div>
+        <div>{show === "Interests" && <Interests />}</div>
+        <div>{show === "Experience" && <Experience />}</div>
+        <div>{show === "Education" && <Education />}</div>
+        <div>{show === "Personal" && <Personal />}</div>
       </div>
       <div className="about-right">
         {/* <div className="about-right-image">

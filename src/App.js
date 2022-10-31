@@ -6,6 +6,8 @@ import Home from "./pages/home/Home";
 import Projects from "./pages/projects/Projects";
 import Contact from "./pages/contact/Contact";
 
+//!TODO : Add AOS like, everywhere.
+
 function App() {
   return (
     <>
