@@ -31,7 +31,7 @@
   color: #4d5bce;
   display: flex;
   align-items: center;
-  gap: .5rem;
+  gap: 0.5rem;
 }
 
 .landing-text .bottom-text {
@@ -68,7 +68,7 @@
 }
 
 .mobl {
-    display: none;
+  display: none;
 }
 
 @media (max-width: 1200px) {
@@ -121,6 +121,7 @@
 @media (max-width: 600px) {
   .landing {
     min-height: 60%;
+    /* height: 100vh; */
     background-image: url("../../../public/assets/Background Blurs.svg");
     background-position: 0 0;
     background-repeat: repeat-x;
@@ -135,6 +136,8 @@
     -webkit-backdrop-filter: blur(5px);
     align-self: center;
     width: 95%;
+    overflow-y: auto;
+    overflow-x: hidden;
   }
 
   .landing-text .top-texts {
@@ -146,7 +149,7 @@
 
   .landing-text .top-texts h1 {
     font-size: 4rem;
-    color: #E5E9F0;
+    color: #e5e9f0;
   }
 
   .landing-text .top-texts h3 {
@@ -154,7 +157,7 @@
     justify-content: flex-start;
     align-items: baseline;
     width: 100%;
-    color: #43D9AD;
+    color: #43d9ad;
   }
 
   .game-disp {
@@ -170,16 +173,16 @@
   }
 
   .mobl {
-      display: flex;
-      flex-direction: column;
-      text-align: left;
-      align-items: flex-start;
-      gap: .5rem;
-      width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    gap: 0.5rem;
+    width: 100%;
   }
 
   .mobl p:nth-of-type(1) {
-      color: #607B96;
+    color: #607b96;
   }
 
   .mobl div span {
@@ -187,15 +190,15 @@
     display: inline-block !important;
     line-height: 1.8rem;
   }
-  
+
   .mobl div span:nth-of-type(1) {
     color: #4d5bce;
   }
-  
+
   .mobl div span:nth-of-type(2) {
     color: #43d9ad;
   }
-  
+
   .mobl div a {
     color: #e99287;
   }
