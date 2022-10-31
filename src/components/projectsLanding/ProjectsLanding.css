@@ -27,7 +27,7 @@
   padding: 2%;
   gap: 2rem;
   flex-wrap: wrap;
-  overflow: auto;
+  overflow: hidden;
   height: 100%;
 }
 
