@@ -9,11 +9,19 @@ export const projectData = [
   },
 
   {
-    name: "WhatsApp Mini",
+    name: "WhatsApp Clone",
     img: "./assets/Projects Screenshots/whatsapp.jpg",
     desc: `I built a Fullstack re-design of WhatsApp using the most
     creative & effecient solutions i could provide. It performs Realtime Chat, CRUD operations, e.t.c`,
     link: "https://whatsapp-mini.netlify.app",
+  },
+
+  {
+    name: "iNotes Clone",
+    img: "./assets/Projects Screenshots/inotes.jpg",
+    desc: `This PWA is a complete fullstack clone of the Apple Notes app,
+     i built publicly in little over a week.`,
+    link: "https://inotes-mini.netlify.app/",
   },
 
   {
@@ -26,17 +34,17 @@ export const projectData = [
   },
 
   {
-    name: "Where-In-The-World",
-    img: "./assets/Projects Screenshots/where-in.jpg",
-    desc: "A frontendmentor.io challenge I completed In a 24hour sprint.",
-    link: "https://where-in-the-worldd.netlify.app",
-  },
-
-  {
     name: "Weather App",
     img: "./assets/Projects Screenshots/weather-app.jpg",
     desc: "Created my First Weather App!!(With ReactJs)Everybody should have at least one weather app in my opinion.",
     link: "https://what-is-the-weather-proj.netlify.app/",
+  },
+
+  {
+    name: "Where-In-The-World",
+    img: "./assets/Projects Screenshots/where-in.jpg",
+    desc: "A frontendmentor.io challenge I completed In a 24hour sprint.",
+    link: "https://where-in-the-worldd.netlify.app",
   },
 
   {
@@ -48,7 +56,7 @@ export const projectData = [
 
   {
     name: "Bithub",
-    img: "./assets/Projects Screenshots/mini-github.jpg",
+    img: "./assets/Projects Screenshots/bit-hub.jpg",
     desc: "I built Github, but as Bithub using Github's official REST Api/localStorage to retrive users' info.",
     link: "https://bit-hub.netlify.app/",
   },
@@ -66,13 +74,12 @@ export const projectData = [
     desc: "I Built an API powered Movie search app using The Movie database.",
     link: "https://tiny-movies-temidayo.netlify.app/",
   },
+
   {
-    name: "My Portfolio",
-    img: "./assets/Projects Screenshots/myportfolio.jpg",
-    desc: `For this.Portfolio website, 
-    I used Vanilla CSS all-through so
-     i could easily have maximum control over my layouts.`,
-    link: "https://temidayo-falomo.netlify.app/",
+    name: "Manage Landing Page",
+    img: "./assets/Projects Screenshots/manage.jpg",
+    desc: "Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.",
+    link: "https://manage-page-temidayo.netlify.app",
   },
   {
     name: "Panda Nft",
@@ -85,6 +92,22 @@ export const projectData = [
     img: "./assets/Projects Screenshots/saturn-fi.jpg",
     desc: "I Did a freelance project on a contract for a Blockchain startup.",
     link: "https://saturn-fi-temidayo.netlify.app/",
+  },
+
+  {
+    name: "Rock Paper Scissors",
+    img: "./assets/Projects Screenshots/r-p-s.jpg",
+    desc: "I completed Frontend Mentors' R-P-S game challenge (plus the bonus roundd) using Reactjs.",
+    link: "https://rok-paper-sci.netlify.app",
+  },
+
+  {
+    name: "My Portfolio",
+    img: "./assets/Projects Screenshots/myportfolio.jpg",
+    desc: `For this.Portfolio website, 
+    I used Vanilla CSS all-through so
+     i could easily have maximum control over my layouts.`,
+    link: "https://temidayo-falomo.netlify.app/",
   },
 ];
 

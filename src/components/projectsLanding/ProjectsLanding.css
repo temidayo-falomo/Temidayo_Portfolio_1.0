@@ -23,7 +23,7 @@
 .projects-right {
   display: flex;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
   padding: 2%;
   gap: 2rem;
   flex-wrap: wrap;
