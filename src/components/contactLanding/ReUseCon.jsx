@@ -12,7 +12,7 @@ function ReUseCon() {
     });
   }, []);
   return (
-    <div className="about-contact" data-aos="fade-up">
+    <div className="about-contact" data-aos="zoom-in">
       <p
         style={{
           display: "inline-flex",

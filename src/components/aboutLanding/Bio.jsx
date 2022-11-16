@@ -8,10 +8,11 @@ function Bio() {
       duration: 1000,
     });
   }, []);
+
   return (
-    <article className="bio" data-aos="fade-up">
+    <article className="bio">
       <h2>_Bio</h2>
-      <p >
+      <p>
         I'm Temidayo, a self taught web developer with a burning passion for
         what i do! I love combining the worlds of logic and creative design to
         make eye-catching, accessible, and user-friendly websites and

@@ -27,7 +27,7 @@ function AboutLanding() {
   return (
     <div className="about-landing">
       <div className="about-left">
-        <ul role="group" data-aos="fade-up">
+        <ul role="group" data-aos="fade">
           {AboutStuff.map((data, index) => {
             return (
               <li
