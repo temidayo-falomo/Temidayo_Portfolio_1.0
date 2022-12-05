@@ -58,7 +58,7 @@ function AboutLanding() {
         {/* <div className="about-right-image">
 
         </div> */}
-        <img src="./assets/IMG_20210820_203403_3.jpeg" alt="" />
+        <img src="./assets/my-pic.jpg" alt="" />
       </div>
     </div>
   );
