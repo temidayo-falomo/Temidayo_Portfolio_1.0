@@ -148,4 +148,28 @@ export const projectList = [
   {
     name: "Panda NFTs",
   },
+  {
+    name: "Rock Paper Scissors",
+  },
+  {
+    name: "Saturn Fi",
+  },
+  {
+    name: "Where In The World",
+  },
+  {
+    name: "Insttagg",
+  },
+  {
+    name: "WhatsApp Clone",
+  },
+  {
+    name: "iNotes Clone",
+  },
+  {
+    name: "My Portfolio",
+  },
+  {
+    name: "#These were Github Copilot Generated.",
+  }
 ];
