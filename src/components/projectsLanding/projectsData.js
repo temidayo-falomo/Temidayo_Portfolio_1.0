@@ -5,7 +5,7 @@ export const projectData = [
     desc: `A complete Fullstack re-design of 
     Instagram, complete with auth, like, share, bookmark, view, crud, 
     routing e.t.c functionalities. `,
-    link: "https://insttagg.herokuapp.com",
+    link: "https://insttagg-client.vercel.app",
   },
 
   {
@@ -41,13 +41,6 @@ export const projectData = [
   },
 
   {
-    name: "Where-In-The-World",
-    img: "./assets/Projects Screenshots/where-in.jpg",
-    desc: "A frontendmentor.io challenge I completed In a 24hour sprint.",
-    link: "https://where-in-the-worldd.netlify.app",
-  },
-
-  {
     name: "Burger-A",
     img: "./assets/Projects Screenshots/burger-a-proj.png",
     desc: "A web app that allows users to build their custom Burger & Checkout.",
@@ -55,18 +48,31 @@ export const projectData = [
   },
 
   {
+    name: "Where-In-The-World",
+    img: "./assets/Projects Screenshots/where-in.jpg",
+    desc: "A frontendmentor.io challenge I completed In a 24hour sprint.",
+    link: "https://where-in-the-worldd.netlify.app",
+  },
+
+  {
+    name: "Typrr",
+    img: "./assets/Projects Screenshots/typrr.png",
+    desc: "Typrr is a classic typing test game built with ReactJs & TypeScript.",
+    link: "https://typrr.netlify.app/",
+  },
+
+  {
+    name: "Rock Paper Scissors",
+    img: "./assets/Projects Screenshots/r-p-s.jpg",
+    desc: "I completed Frontend Mentors' R-P-S game challenge (plus the bonus roundd) using Reactjs.",
+    link: "https://rok-paper-sci.netlify.app",
+  },
+
+  {
     name: "Bithub",
     img: "./assets/Projects Screenshots/bit-hub.jpg",
     desc: "I built Github, but as Bithub using Github's official REST Api/localStorage to retrive users' info.",
     link: "https://bit-hub.netlify.app/",
-  },
-
-  {
-    name: "Coin Fi",
-    img: "./assets/Projects Screenshots/coin-fi.jpg",
-    desc: "I've wanted to build a Crypto price tracker since i learned about API's(Consumed the Coin Gecko Public API)",
-    link: "https://coin-fi.netlify.app/",
-    env: "FaReact",
   },
   {
     name: "Tiny Moviez",
@@ -81,24 +87,27 @@ export const projectData = [
     desc: "Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.",
     link: "https://manage-page-temidayo.netlify.app",
   },
+
   {
     name: "Panda Nft",
     img: "./assets/Projects Screenshots/panda-nft.jpg",
     desc: "I built a NFT landing page using mainly inbuilt css flexbox-properties for Responsiveness.",
     link: "https://panda-nfts.netlify.app/",
   },
+
+  {
+    name: "Coin Fi",
+    img: "./assets/Projects Screenshots/coin-fi.jpg",
+    desc: "I've wanted to build a Crypto price tracker since i learned about API's(Consumed the Coin Gecko Public API)",
+    link: "https://coin-fi.netlify.app/",
+    env: "FaReact",
+  },
+
   {
     name: "SaturnFi(Work Demo)",
     img: "./assets/Projects Screenshots/saturn-fi.jpg",
     desc: "I Did a freelance project on a contract for a Blockchain startup.",
     link: "https://saturn-fi-temidayo.netlify.app/",
-  },
-
-  {
-    name: "Rock Paper Scissors",
-    img: "./assets/Projects Screenshots/r-p-s.jpg",
-    desc: "I completed Frontend Mentors' R-P-S game challenge (plus the bonus roundd) using Reactjs.",
-    link: "https://rok-paper-sci.netlify.app",
   },
 
   {
@@ -171,5 +180,5 @@ export const projectList = [
   },
   {
     name: "#These were Github Copilot Generated.",
-  }
+  },
 ];

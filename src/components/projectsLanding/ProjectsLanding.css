@@ -23,6 +23,7 @@
 .projects-right {
   display: flex;
   justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   padding: 2%;
   gap: 2rem;

@@ -30,7 +30,7 @@ function ProjectsLanding() {
       <div className="projects-right">
         {projectData.map((data, index) => {
           return (
-            <div key={index} className="product-card" data-aos="fade-up">
+            <div key={index} className="product-card">
               <ProjectCard data={data} />
             </div>
           );
