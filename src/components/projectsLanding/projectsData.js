@@ -11,16 +11,16 @@ export const projectData = [
   {
     name: "WhatsApp Clone",
     img: "./assets/Projects Screenshots/whatsapp.jpg",
-    desc: `I built a Fullstack re-design of WhatsApp using the most
+    desc: `I built a chat app based off WhatsApp using the most
     creative & effecient solutions i could provide. It performs Realtime Chat, CRUD operations, e.t.c`,
     link: "https://whatsapp-mini.netlify.app",
   },
 
   {
     name: "iNotes Clone",
-    img: "./assets/Projects Screenshots/inotes.jpg",
+    img: "./assets/Projects Screenshots/inotes.png",
     desc: `This PWA is a complete fullstack clone of the Apple Notes app,
-     i built publicly in little over a week.`,
+     i built publicly using the MERN stack.`,
     link: "https://inotes-mini.netlify.app/",
   },
 
@@ -34,10 +34,11 @@ export const projectData = [
   },
 
   {
-    name: "Weather App",
-    img: "./assets/Projects Screenshots/weather-app.jpg",
-    desc: "Created my First Weather App!!(With ReactJs)Everybody should have at least one weather app in my opinion.",
-    link: "https://what-is-the-weather-proj.netlify.app/",
+    name: "Typrr",
+    img: "./assets/Projects Screenshots/typrr.png",
+    desc: `Typrr is a classic typing test game built with ReactJs & TypeScript.
+     I added a leaderboard feature, so feel free to compete with your friends online.`,
+    link: "https://typrr.netlify.app/",
   },
 
   {
@@ -48,24 +49,24 @@ export const projectData = [
   },
 
   {
-    name: "Where-In-The-World",
-    img: "./assets/Projects Screenshots/where-in.jpg",
-    desc: "A frontendmentor.io challenge I completed In a 24hour sprint.",
-    link: "https://where-in-the-worldd.netlify.app",
-  },
-
-  {
-    name: "Typrr",
-    img: "./assets/Projects Screenshots/typrr.png",
-    desc: "Typrr is a classic typing test game built with ReactJs & TypeScript.",
-    link: "https://typrr.netlify.app/",
-  },
-
-  {
     name: "Rock Paper Scissors",
     img: "./assets/Projects Screenshots/r-p-s.jpg",
     desc: "I completed Frontend Mentors' R-P-S game challenge (plus the bonus roundd) using Reactjs.",
     link: "https://rok-paper-sci.netlify.app",
+  },
+
+  {
+    name: "Weather App",
+    img: "./assets/Projects Screenshots/weather-app.jpg",
+    desc: "Created my First Weather App!!(With ReactJs)Everybody should have at least one weather app in my opinion.",
+    link: "https://what-is-the-weather-proj.netlify.app/",
+  },
+
+  {
+    name: "Where-In-The-World",
+    img: "./assets/Projects Screenshots/where-in.jpg",
+    desc: "A frontendmentor.io challenge I completed In a 24hour sprint.",
+    link: "https://where-in-the-worldd.netlify.app",
   },
 
   {
