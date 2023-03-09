@@ -1,5 +1,11 @@
 export const projectData = [
   {
+    name: "Spotifye",
+    img: "./assets/Projects Screenshots/spotifye.png",
+    desc: `A complex web app built using a mix-match of Spotify, Youtube Music & Deezer's Ui's & Api's.`,
+    link: "https://spotify-e.netlify.app",
+  },
+  {
     name: "Insttagg",
     img: "./assets/Projects Screenshots/insttagg.jpg",
     desc: `A complete Fullstack re-design of 
