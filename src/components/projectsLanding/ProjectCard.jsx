@@ -5,16 +5,10 @@ function ProjectCard({ data }) {
     <a href={data.link} target="_blank" rel="noopener noreferrer">
       <div
         className="card-top"
-        // style={{
-        //   backgroundImage: `url(${
-        //     require("./assets/Projects Screenshots/insttagg.jpg").default
-        //   })`,
-        //   backgroundPosition: "center",
-        //   backgroundSize: "cover",
-        // }}
-      >
-        <img src={data.img} alt="" loading="lazy" />
-      </div>
+        style={{
+          backgroundImage: `url(${data.img})`,
+        }}
+      ></div>
       <div className="card-desc">
         <h3>{data.name}</h3>
         <p>{data.desc}</p>

@@ -13,11 +13,12 @@ function Bio() {
     <article className="bio">
       <h2>_Bio</h2>
       <p>
-        I'm Temidayo, a self taught web developer with a burning passion for
-        what i do! I love combining the worlds of logic and creative design to
-        make eye-catching, accessible, and user-friendly websites and
-        applications, and I am excited to make the leap and continue refining my
-        skills with the right company.
+        Hi, I'm Temidayo, a web developer passionate about creating immersive
+        digital experiences. With 2 years of experience, I specialize in HTML,
+        CSS, and JavaScript (I love Javascript), crafting user-friendly websites with a focus on
+        aesthetics and functionality. Proficient in React.js and VueJs, I build
+        scalable web applications and collaborate effectively using Git and
+        agile methodologies. Let's connect and bring your ideas to life!
       </p>
     </article>
   );

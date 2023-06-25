@@ -5,18 +5,11 @@ import { useState } from "react";
 import Bio from "./Bio";
 import Experience from "./Experience";
 import Interests from "./Interests";
-import Education from "./Education";
 import ReUseCon from "../contactLanding/ReUseCon";
 import Personal from "./Personal";
 
 function AboutLanding() {
-  const AboutStuff = [
-    "Bio",
-    "Interests",
-    "Experience",
-    "Education",
-    "Personal",
-  ];
+  const AboutStuff = ["Bio", "Interests", "Experience", "Personal"];
   const [show, setShow] = useState("Bio");
   const [number, setNumber] = useState(0);
 
@@ -51,13 +44,9 @@ function AboutLanding() {
         <div>{show === "Bio" && <Bio />}</div>
         <div>{show === "Interests" && <Interests />}</div>
         <div>{show === "Experience" && <Experience />}</div>
-        <div>{show === "Education" && <Education />}</div>
         <div>{show === "Personal" && <Personal />}</div>
       </div>
       <div className="about-right">
-        {/* <div className="about-right-image">
-
-        </div> */}
         <img src="./assets/my-pic.jpg" alt="" />
       </div>
     </div>

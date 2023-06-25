@@ -12,6 +12,7 @@ import {
   SiStyledcomponents,
   SiTypescript,
 } from "react-icons/si";
+import { FaVuejs } from "react-icons/fa";
 import { CgFigma } from "react-icons/cg";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -30,6 +31,10 @@ function InfoBar() {
       </div>
       <div className="info-bar-content">
         <ul>
+          <li>
+            <FaVuejs />
+            VueJs
+          </li>
           <li>
             <FaReact />
             ReactJs
