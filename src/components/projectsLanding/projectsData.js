@@ -130,9 +130,11 @@ export const projectData = [
 export const projectList = [
   {
     name: "Tiny Moviez",
+    link: "https://github.com/temidayo-falomo/Movies-Api-Project",
   },
   {
     name: "Manage Page",
+    link: "",
   },
   {
     name: "Nft Page",
@@ -154,6 +156,9 @@ export const projectList = [
   },
   {
     name: "Bithub",
+  },
+  {
+    name: "Typrr",
   },
   {
     name: "Booksy",
@@ -186,6 +191,6 @@ export const projectList = [
     name: "My Portfolio",
   },
   {
-    name: "#These were Github Copilot Generated.",
+    name: "Spotifye",
   },
 ];
