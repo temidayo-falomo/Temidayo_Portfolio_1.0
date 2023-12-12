@@ -5,6 +5,15 @@ export const projectData = [
     desc: `A complex web app built using a mix-match of Spotify, Youtube Music & Deezer's Ui's & Api's.`,
     link: "https://spotify-e.netlify.app",
   },
+
+  {
+    name: "iNotes Clone",
+    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1687698795/portfolio-projects/ehj7oxn3c6khmm2jgv0h.png",
+    desc: `This PWA is a complete fullstack clone of the Apple Notes app,
+     i built publicly using the MERN stack.`,
+    link: "https://inotes-mini.netlify.app/",
+  },
+
   {
     name: "Insttagg",
     img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1687698895/portfolio-projects/hzekob0otdjdi5k3eqeh.jpg",
@@ -20,14 +29,6 @@ export const projectData = [
     desc: `I built a chat app based off WhatsApp using the most
     creative & effecient solutions i could provide. It performs Realtime Chat, CRUD operations, e.t.c`,
     link: "https://whatsapp-mini.netlify.app",
-  },
-
-  {
-    name: "iNotes Clone",
-    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1687698795/portfolio-projects/ehj7oxn3c6khmm2jgv0h.png",
-    desc: `This PWA is a complete fullstack clone of the Apple Notes app,
-     i built publicly using the MERN stack.`,
-    link: "https://inotes-mini.netlify.app/",
   },
 
   {
@@ -50,7 +51,7 @@ export const projectData = [
   {
     name: "Burger-A",
     img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1687699006/portfolio-projects/sdku25xhbat8wkc6p7id.png",
-    desc: "A web app that allows users to build their custom Burger & Checkout.",
+    desc: "A web app that allows users to build their custom Burger & mimic Checkout.",
     link: "https://burger-a.netlify.app/make-burger",
   },
 
@@ -64,8 +65,15 @@ export const projectData = [
   {
     name: "Weather App",
     img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1687701129/portfolio-projects/esz1tumkj5z0vsmc6y0g.jpg",
-    desc: "Created my First Weather App!!(With ReactJs)Everybody should have at least one weather app in my opinion.",
+    desc: "Created my First Weather App!!(With ReactJs)Everybody should have at least one weather app imho.",
     link: "https://what-is-the-weather-proj.netlify.app/",
+  },
+
+  {
+    name: "Whac-A-Mole",
+    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1702340660/portfolio-projects/Screenshot_2023-12-12_at_1.07.59_AM_bd4c40.png",
+    desc: "A fun Whac-A-Mole game I built using Vue & TypeScript.",
+    link: "https://whark-a-mole.netlify.app/",
   },
 
   {
@@ -73,13 +81,6 @@ export const projectData = [
     img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1687701250/portfolio-projects/ssby7dcwksfumti1zidq.jpg",
     desc: "A frontendmentor.io challenge I completed In a 24hour sprint.",
     link: "https://where-in-the-worldd.netlify.app",
-  },
-
-  {
-    name: "Bithub",
-    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1687698703/portfolio-projects/xsougox9vm3qxniytuaf.jpg",
-    desc: "I built Github, but as Bithub using Github's official REST Api/localStorage to retrive users' info.",
-    link: "https://bit-hub.netlify.app/",
   },
   {
     name: "Tiny Moviez",
@@ -115,6 +116,13 @@ export const projectData = [
     img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1687701284/portfolio-projects/gwkfclmo20qonuutkrlr.jpg",
     desc: "I Did a freelance project on a contract for a Blockchain startup.",
     link: "https://saturn-fi-temidayo.netlify.app/",
+  },
+
+  {
+    name: "Bithub",
+    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1687698703/portfolio-projects/xsougox9vm3qxniytuaf.jpg",
+    desc: "I built Github, but as Bithub using Github's official REST Api/localStorage to retrive users' info.",
+    link: "https://bit-hub.netlify.app/",
   },
 
   {
