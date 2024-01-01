@@ -1,14 +1,14 @@
 export const projectData = [
   {
     name: "Spotifye",
-    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1687700667/portfolio-projects/cvybn0inebl6tm1uhjq2.png",
+    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1704141733/webp-portfolio-projs/cvybn0inebl6tm1uhjq2_vmzyuc.webp",
     desc: `A complex web app built using a mix-match of Spotify, Youtube Music & Deezer's Ui's & Api's.`,
     link: "https://spotify-e.netlify.app",
   },
 
   {
     name: "iNotes Clone",
-    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1687698795/portfolio-projects/ehj7oxn3c6khmm2jgv0h.png",
+    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1704141732/webp-portfolio-projs/ehj7oxn3c6khmm2jgv0h_lsatpu.webp",
     desc: `This PWA is a complete fullstack clone of the Apple Notes app,
      i built publicly using the MERN stack.`,
     link: "https://inotes-mini.netlify.app/",
@@ -16,7 +16,7 @@ export const projectData = [
 
   {
     name: "Insttagg",
-    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1687698895/portfolio-projects/hzekob0otdjdi5k3eqeh.jpg",
+    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1704141734/webp-portfolio-projs/hzekob0otdjdi5k3eqeh_psqa91.webp",
     desc: `A complete Fullstack re-design of 
     Instagram, complete with auth, like, share, bookmark, view, crud, 
     routing e.t.c functionalities. `,
@@ -25,7 +25,7 @@ export const projectData = [
 
   {
     name: "WhatsApp Clone",
-    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1687701288/portfolio-projects/jibpcuv7lrymerkwr1or.jpg",
+    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1704141734/webp-portfolio-projs/jibpcuv7lrymerkwr1or_shoogm.webp",
     desc: `I built a chat app based off WhatsApp using the most
     creative & effecient solutions i could provide. It performs Realtime Chat, CRUD operations, e.t.c`,
     link: "https://whatsapp-mini.netlify.app",
@@ -33,7 +33,7 @@ export const projectData = [
 
   {
     name: "Booksy",
-    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1687698705/portfolio-projects/tvf875wgowwczaiyy4zc.jpg",
+    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1704141737/webp-portfolio-projs/tvf875wgowwczaiyy4zc_jtfqsa.webp",
     desc: `I Built Booksy as a special personal side-project, 
     this site contains fullstack / crud / authentication 
     functionalities using a BAAS(Firebase).`,
@@ -42,7 +42,7 @@ export const projectData = [
 
   {
     name: "Typrr",
-    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1687701121/portfolio-projects/eunjdrs03vky8b8g5hxk.png",
+    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1704141732/webp-portfolio-projs/eunjdrs03vky8b8g5hxk_cyluyj.webp",
     desc: `Typrr is a classic typing test game built with ReactJs & TypeScript.
      I added a leaderboard feature, so feel free to compete with your friends online.`,
     link: "https://typrr.netlify.app/",
@@ -50,62 +50,62 @@ export const projectData = [
 
   {
     name: "Burger-A",
-    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1687699006/portfolio-projects/sdku25xhbat8wkc6p7id.png",
+    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1704141736/webp-portfolio-projs/sdku25xhbat8wkc6p7id_mpxubd.webp",
     desc: "A web app that allows users to build their custom Burger & mimic Checkout.",
     link: "https://burger-a.netlify.app/make-burger",
   },
 
   {
     name: "Rock Paper Scissors",
-    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1687698936/portfolio-projects/bxiczwgnpywlxa4alsda.jpg",
+    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1704141731/webp-portfolio-projs/bxiczwgnpywlxa4alsda_rkzud1.webp",
     desc: "I completed Frontend Mentors' R-P-S game challenge (plus the bonus roundd) using Reactjs.",
     link: "https://rok-paper-sci.netlify.app",
   },
 
   {
     name: "Weather App",
-    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1687701129/portfolio-projects/esz1tumkj5z0vsmc6y0g.jpg",
+    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1704141733/webp-portfolio-projs/esz1tumkj5z0vsmc6y0g_hgvkjg.webp",
     desc: "Created my First Weather App!!(With ReactJs)Everybody should have at least one weather app imho.",
     link: "https://what-is-the-weather-proj.netlify.app/",
   },
 
   {
     name: "Whac-A-Mole",
-    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1702340660/portfolio-projects/Screenshot_2023-12-12_at_1.07.59_AM_bd4c40.png",
+    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1704141734/webp-portfolio-projs/Screenshot_2023-12-12_at_1.07.59_AM_bd4c40_xwpjvu.webp",
     desc: "A fun Whac-A-Mole game I built using Vue & TypeScript.",
     link: "https://whark-a-mole.netlify.app/",
   },
 
   {
     name: "Where-In-The-World",
-    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1687701250/portfolio-projects/ssby7dcwksfumti1zidq.jpg",
+    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1704141735/webp-portfolio-projs/ssby7dcwksfumti1zidq_hejhph.webp",
     desc: "A frontendmentor.io challenge I completed In a 24hour sprint.",
     link: "https://where-in-the-worldd.netlify.app",
   },
   {
     name: "Tiny Moviez",
-    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1687701212/portfolio-projects/kdyljfbj0wfffgrodkcp.jpg",
+    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1704141734/webp-portfolio-projs/kdyljfbj0wfffgrodkcp_mv0wgo.webp",
     desc: "I Built an API powered Movie search app using The Movie database.",
     link: "https://tiny-movies-temidayo.netlify.app/",
   },
 
   {
     name: "Manage Landing Page",
-    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1687698788/portfolio-projects/atuars3pg17vzshez6yk.jpg",
+    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1704141672/webp-portfolio-projs/atuars3pg17vzshez6yk_obafam.webp",
     desc: "Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.",
     link: "https://manage-page-temidayo.netlify.app",
   },
 
   {
     name: "Panda Nft",
-    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1687701266/portfolio-projects/vjibhs6hm8majcotobaa.jpg",
+    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1704141738/webp-portfolio-projs/vjibhs6hm8majcotobaa_ig3zyf.webp",
     desc: "I built a NFT landing page using mainly inbuilt css flexbox-properties for Responsiveness.",
     link: "https://panda-nfts.netlify.app/",
   },
 
   {
     name: "Coin Fi",
-    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1687698785/portfolio-projects/oyesp5qbsapphks2cf1p.jpg",
+    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1704141734/webp-portfolio-projs/oyesp5qbsapphks2cf1p_jxob5b.webp",
     desc: "I've wanted to build a Crypto price tracker since i learned about API's(Consumed the Coin Gecko Public API)",
     link: "https://coin-fi.netlify.app/",
     env: "FaReact",
@@ -113,21 +113,21 @@ export const projectData = [
 
   {
     name: "SaturnFi(Work Demo)",
-    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1687701284/portfolio-projects/gwkfclmo20qonuutkrlr.jpg",
+    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1704141734/webp-portfolio-projs/gwkfclmo20qonuutkrlr_h4cdol.webp",
     desc: "I Did a freelance project on a contract for a Blockchain startup.",
     link: "https://saturn-fi-temidayo.netlify.app/",
   },
 
   {
     name: "Bithub",
-    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1687698703/portfolio-projects/xsougox9vm3qxniytuaf.jpg",
+    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1704141737/webp-portfolio-projs/xsougox9vm3qxniytuaf_ztfyn7.webp",
     desc: "I built Github, but as Bithub using Github's official REST Api/localStorage to retrive users' info.",
     link: "https://bit-hub.netlify.app/",
   },
 
   {
     name: "My Portfolio",
-    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1687698960/portfolio-projects/fru0wcc1pqzxqshbnj5g.jpg",
+    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1704141733/webp-portfolio-projs/fru0wcc1pqzxqshbnj5g_iisohl.webp",
     desc: `For this.Portfolio website, 
     I used Vanilla CSS all-through so
      i could easily have maximum control over my layouts.`,
@@ -200,5 +200,8 @@ export const projectList = [
   },
   {
     name: "Spotifye",
+  },
+  {
+    name: "Whac-A-Mole",
   },
 ];
