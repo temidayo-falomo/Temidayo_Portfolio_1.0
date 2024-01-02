@@ -49,6 +49,27 @@ export const projectData = [
   },
 
   {
+    name: "Faaji",
+    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1704186379/webp-portfolio-projs/Screenshot_2024-01-02_at_9.47.49_AM_wq3dud.webp",
+    desc: "I work as a Frontend Developer at Faaji, a tech startup based in Lagos, Nigeria.",
+    link: "https://faaji.app/",
+  },
+
+  {
+    name: "Unilo",
+    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1704186378/webp-portfolio-projs/Screenshot_2024-01-02_at_9.54.30_AM_al5efr.webp",
+    desc: "A landing page for a delivery service startup based in Lagos, Nigeria.",
+    link: "https://unilo.africa/",
+  },
+
+  {
+    name: "Service Guys (In progress)",
+    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1704186379/webp-portfolio-projs/Screenshot_2024-01-02_at_9.56.06_AM_vdirom.webp",
+    desc: "A landing page for an on-demand workforce partner in Auckland, New Zealand.",
+    link: "https://comforting-lily-6f9dfb.netlify.app/",
+  },
+
+  {
     name: "Burger-A",
     img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1704141736/webp-portfolio-projs/sdku25xhbat8wkc6p7id_mpxubd.webp",
     desc: "A web app that allows users to build their custom Burger & mimic Checkout.",
@@ -114,15 +135,29 @@ export const projectData = [
   {
     name: "SaturnFi(Work Demo)",
     img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1704141734/webp-portfolio-projs/gwkfclmo20qonuutkrlr_h4cdol.webp",
-    desc: "I Did a freelance project on a contract for a Blockchain startup.",
+    desc: "A freelance project on a contract for a Blockchain startup.",
     link: "https://saturn-fi-temidayo.netlify.app/",
   },
 
   {
     name: "Bithub",
     img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1704141737/webp-portfolio-projs/xsougox9vm3qxniytuaf_ztfyn7.webp",
-    desc: "I built Github, but as Bithub using Github's official REST Api/localStorage to retrive users' info.",
+    desc: "I built Github, but as Bithub using Github's official REST Api/localStorage to retrive users info.",
     link: "https://bit-hub.netlify.app/",
+  },
+
+  {
+    name: "AfroJazz Fest",
+    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1704186380/webp-portfolio-projs/Screenshot_2024-01-02_at_9.58.18_AM_xc0wla.webp",
+    desc: "A tiny landing page i built for a Jazz festival.",
+    link: "https://afrojazzfest.org/",
+  },
+
+  {
+    name: "Data Dashboard",
+    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1704188818/webp-portfolio-projs/WhatsApp_Image_2024-01-02_at_10.45.54_AM_ddqhlr.jpg",
+    desc: "A freelance data dashboard i built for a client with multiple, complex functionalities.",
+    link: "/projects",
   },
 
   {
