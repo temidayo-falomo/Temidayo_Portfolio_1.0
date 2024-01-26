@@ -63,10 +63,10 @@ export const projectData = [
   },
 
   {
-    name: "Service Guys (In progress)",
+    name: "Service Guys",
     img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1704186379/webp-portfolio-projs/Screenshot_2024-01-02_at_9.56.06_AM_vdirom.webp",
     desc: "A landing page for an on-demand workforce partner in Auckland, New Zealand.",
-    link: "https://comforting-lily-6f9dfb.netlify.app/",
+    link: "https://www.serviceguys.co.nz/",
   },
 
   {
@@ -129,7 +129,6 @@ export const projectData = [
     img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1704141734/webp-portfolio-projs/oyesp5qbsapphks2cf1p_jxob5b.webp",
     desc: "I've wanted to build a Crypto price tracker since i learned about API's(Consumed the Coin Gecko Public API)",
     link: "https://coin-fi.netlify.app/",
-    env: "FaReact",
   },
 
   {
@@ -154,7 +153,7 @@ export const projectData = [
   },
 
   {
-    name: "Data Dashboard",
+    name: "Reports Dashboard",
     img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1704188818/webp-portfolio-projs/WhatsApp_Image_2024-01-02_at_10.45.54_AM_ddqhlr.jpg",
     desc: "A freelance data dashboard i built for a client with multiple, complex functionalities.",
     link: "/projects",
