@@ -56,6 +56,13 @@ export const projectData = [
   },
 
   {
+    name: "Translynx Marine",
+    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1723160773/Screenshot_2024-08-09_at_12.44.48_AM_z4e1p5.png",
+    desc: "A landing/showcase page for Jeanneau & Mercury boats & engines available through Translynx Marine.",
+    link: "https://translynxmarine.com/",
+  },
+
+  {
     name: "Unilo",
     img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1704186378/webp-portfolio-projs/Screenshot_2024-01-02_at_9.54.30_AM_al5efr.webp",
     desc: "A landing page for a delivery service startup based in Lagos, Nigeria.",
@@ -125,14 +132,7 @@ export const projectData = [
   },
 
   {
-    name: "Coin Fi",
-    img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1704141734/webp-portfolio-projs/oyesp5qbsapphks2cf1p_jxob5b.webp",
-    desc: "I've wanted to build a Crypto price tracker since i learned about API's(Consumed the Coin Gecko Public API)",
-    link: "https://coin-fi.netlify.app/",
-  },
-
-  {
-    name: "SaturnFi(Work Demo)",
+    name: "SaturnFi(Demo)",
     img: "https://res.cloudinary.com/temidayo-falomo/image/upload/v1704141734/webp-portfolio-projs/gwkfclmo20qonuutkrlr_h4cdol.webp",
     desc: "A freelance project on a contract for a Blockchain startup.",
     link: "https://saturn-fi-temidayo.netlify.app/",

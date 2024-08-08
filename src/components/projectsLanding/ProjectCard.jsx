@@ -6,7 +6,7 @@ function ProjectCard({ data }) {
       <div className="card-top">
         <img
           src={data.img}
-          style={{ width: "100%", height: "100%", objectFit: "contain" }}
+          style={{ width: "100%", height: "100%", objectFit: "cover" }}
           alt={data.name}
         />
       </div>
